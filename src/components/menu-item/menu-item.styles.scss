@@ -39,6 +39,9 @@
     // border: 5px solid red;
   }
 
+  // This would be .menu-item .background-image in regular css.
+  // the element inside .menu-item, inside background-image
+  // will get these styles.
   .background-image {
     width: 100%;
     height: 100%;
@@ -46,6 +49,7 @@
     background-position: center;
   }
 
+  // This would be .menu-item .content in regular css.
   .content {
     height: 90px;
     padding: 0 25px;
